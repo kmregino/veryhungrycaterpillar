@@ -17,10 +17,11 @@ function draw() {
   let currentString = string.substring(0, currentCharacter);
   
   push();
-  textSize(32);
+  textSize(34);
   textAlign(LEFT, BASELINE);
+  textFont('Chinchilla');
   text(currentString, pageMargin + 30, pageMargin + 30, width -   pageMargin*2, height - pageMargin);
   pop();
   
-  currentCharacter += 0.3;
+  currentCharacter += 0.2;
 }

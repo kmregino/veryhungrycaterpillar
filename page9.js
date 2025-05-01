@@ -20,8 +20,9 @@ function draw() {
   }
   
   fill(0); 
-  textSize(30);
+  textSize(34);
   textAlign(LEFT);
+  textFont('Chinchilla');
   text("The next day, he ate through one nice big leaf,", 35, 150); 
 
   
@@ -34,8 +35,9 @@ function draw() {
   
   if (showText) {
   fill(0); 
-  textSize(30);
+  textSize(34);
   textAlign(LEFT);
+  textFont('Chinchilla');
   text("and after that he felt much better.", 35, 200);
   }
 }

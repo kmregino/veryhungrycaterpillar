@@ -12,8 +12,9 @@ function draw() {
   image(bg, 0, 0); 
   
   fill(0); 
-  textSize(32);
+  textSize(34);
   textAlign(LEFT);
+  textFont('Chinchilla');
   text("Now he wasn't hungry anymore-", 100, 75);
   text("and he wasn't a little caterpillar anymore.", 100, 125);
   textAlign(RIGHT);

@@ -15,7 +15,8 @@ function draw() {
   image(overlayImg, 300, 550, 200, 150); 
   
   fill(0); 
-  textSize(32);
+  textSize(45);
   textAlign(CENTER);
+  textFont('Chinchilla');
   text("He started to look for some food", 500, 475);
 }

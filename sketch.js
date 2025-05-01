@@ -1,7 +1,9 @@
 let bg1, bg2;
 let useFirst = true;
 
-function windowResized() {
+
+
+function setup() {
   createCanvas(1000, 700);
 }
 

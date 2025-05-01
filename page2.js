@@ -29,6 +29,7 @@ function draw() {
     fill(0); 
     textSize(30);
     textAlign(LEFT, CENTER);
+    textFont('Chinchilla');
     text("One Sunday morning the sun came out and", 70, 80);
   } 
   

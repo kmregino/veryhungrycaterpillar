@@ -1,6 +1,7 @@
 @import url("https://use.typekit.net/tvi4tep.css");
 
 html, body {
+  background-color: black;
   margin: 0;
   padding: 0;
   font-family: chinchilla, sans-serif;
@@ -10,14 +11,38 @@ html, body {
 
 canvas {
   display: block;
-  align-content: center;
-  position:absolute;
   margin: auto;
-  margin-top: 1%;
+  margin-top: 2%;
 }
 
 h1 {
   position: absolute;
-  top: 85%;
-  left: 75%;
+  font-size: 28px;
+  top: 92%;
+  left: 80%;
+
+  color: white;
+}
+
+#butterfly {
+  align-content: center;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  width: 70%;
+  animation-name: float; 
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes float {
+  from {
+      top: 10%; 
+  }
+
+  to {
+      top: 16%; 
+  }
 }

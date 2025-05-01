@@ -14,8 +14,9 @@ function draw() {
   image(bg, 0, 0);
   
   fill(0); 
-  textSize(32);
+  textSize(36);
   textAlign(CENTER);
+  textFont('Chinchilla');
   text("On Wednesday he ate through three plums,", 500, 150); 
 
   
@@ -28,8 +29,9 @@ function draw() {
   
 if (clickCount >= 3) {
   fill(0); 
-  textSize(32);
+  textSize(36);
   textAlign(CENTER);
+  textFont('Chinchilla');
   text("but he was still hungry.", 500, 200);
   }
 }
