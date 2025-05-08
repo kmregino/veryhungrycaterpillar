@@ -3,7 +3,7 @@ let overlayImg;
 
 function preload() {
   bg = loadImage('assets/page3.jpg');
-  overlayImg = loadImage('assets/movingvhc.gif');
+  overlayImg = loadImage('assets/workplease.gif');
 }
 
 function setup() {
